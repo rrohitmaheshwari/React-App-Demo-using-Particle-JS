@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+#root{
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#background
+{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.47);
+  transition: 0.3s;
+  width: 35%;
+  margin-left: 30%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.47);
+}
+
+.container {
+  padding: 20px 16px;
+}
